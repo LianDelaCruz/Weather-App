@@ -8,6 +8,7 @@ const weatherWrapper = document.querySelector('.weather-wrapper');
 const submitBtn = document.querySelector('#submit-button');
 const errorMessage = document.querySelector('#error-message');
 const loadingMessage = document.querySelector('.loading-message');
+const apiKey = '486e765a93e24b7bbdba69df77830015';
 
 submitBtn.addEventListener('click', searchCity);
 
@@ -48,7 +49,7 @@ function makeImageUrl(icon){
 
 //Functions for the CURRENT/TODAYS weather forecast: including API, FETCH, and to DISPLAY current forecast
 function makeCurrentWeatherUrl(cityName){
-    return `https://api.weatherbit.io/v2.0/current?key=20873ff18f82429eb25dc1b0153b023d&city=${cityName}&lang=sv`;
+    return `https://api.weatherbit.io/v2.0/current?key=${apiKey}&city=${cityName}&lang=sv`;
 };
 
 function getCurrentWeather(currentWeatherUrl) {
@@ -92,7 +93,7 @@ function displayCurrentForecast(forecast){
 
 //Functions for the NEXT 5 DAYS weather forecast: including API, FETCH, and to DISPLAY 5 days forecast
 function makeFiveDayUrl(cityName){
-    return `https://api.weatherbit.io/v2.0/forecast/daily?key=20873ff18f82429eb25dc1b0153b023d&city=${cityName}&lang=sv&days=6`;
+    return `https://api.weatherbit.io/v2.0/forecast/daily?key=${apiKey}&city=${cityName}&lang=sv&days=6`;
 }
 
 function getFiveDaysWeather(fiveDayUrl){
