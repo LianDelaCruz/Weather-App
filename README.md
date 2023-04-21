@@ -1,14 +1,21 @@
-# Weather-App
+# Weather-App :sun_behind_rain_cloud:
 
 Oh, hello there!
-
-You have arrived in my weather app. :) 
 This App is created using HTML, CSS and Javascript. 
-The main purpose of this project is to fetch data from the API to get the weather from an specific city. 
-I enjoyed creating this, and I also made my mom used it! 
+I enjoyed creating this, and I also made my mom and my friends use it! 
 
+### What the project does:
+You have arrived in my weather app. :sunglasses: This website will show you the weather in a city that you wanna search for. It fetches the data from a weather API and it changes the background image depending on the time. 
 It might not work right now because I only used a trial period for the access in the weather api. :) 
 
-Feel free to check out my other repos! and here is a link for my LinkedIn: https://www.linkedin.com/in/liandelacruz/
+### Why the project is useful: 
+I think this is one of my precious app that I made. It is not the most perfect, but it does search for city weather and give information. 
 
-Cheers! Thank you for visiting!
+### How users can get started with the project
+
+
+### Where users can get help with your project:
+You can contact me! 
+
+### Who maintains and contributes to the project:
+It was only me. Feel free to check out my other repos!
